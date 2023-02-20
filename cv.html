@@ -5,86 +5,156 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="contact-top">
-        <h1 class="contact-top__h1">Jeanette Fox</h1>
-        <h2 class="contact-top__h2">Ingeniera en Sistemas de Información</h2>
-        <img src="cv.jpg" alt="Jeanette">
-    </div>
-    <div class = "contact-med">
-        <h2 class = "contact-med__h2">Perfil</h2>
-        <p class="contact-med__p">Ingeniera en Sistemas de Información con 15 años de 
-            experiencia en supervisión de procesos de Administración de datos, 
-            con una maestría en seguridad en base de datos. Soy especialista en el diseño de 
-            planes de prevención de riesgos y optimización de recursos. Uno de los logros más
-            destacados en mi trayectoria es que ayudé a la compañía Microsoft a reducir la eficiencia de
-            los sistemas operativos en un 15%. Deseo ayudarles a aumentar la eficiencia en su empresa.</p>
-    </div>
-    <div class="contact-datos">
-            <div>
-                <h2>Contacto</h2>
-                <li>
-                <span>Número telefónico:</span> (851) 344-5048
-                </li>
-                <li>
-                    <span>Email:</span> jeanette.fox@example.com
-                </li>
-                <li>
-                    <span>Dirección: </span> 3246 Mockingbird Ln
-                </li>
+    <div class = "contenedor">
+        <div class = "izquierda">
+            <div class="perfil">
+                <div class="imagen">
+                    <img src="cv.jpg" alt="Jeanette">
+                </div>
+                <h2>Jeanette Fox<br><span>Ingeniera en Sistemas de Información</span></h2>
             </div>
-        </ul>
-        <h2>Habilidades</h2>
-            <li>Microsoft Office</li>
-            <li>Personalidad de liderazgo</li>
-            <li>Manejo de personal</li>
-            <li>Desarrolo de estructuras de datos en c++</li>
-            <li>Programación Orientada a Objetos en JavaScript</li>
-            <li>Desarrollo Web en HTML y CSS</li>
-        <h2>Lenguas</h2>
-            <li><span>Español: </span>Nativo</li>
-            <li><span>Ingles: </span>Muy alto</li>
-            <li><span>Portugues: </span>Alto</li>
-            <li><span>Italiano: </span>Medio</li>
-    </div>
-    <div class="contact-exp">
-        <h2>Experiencia</h2>
-        <li>
-                IBM Corporation
-        <p>2007-2018</p>
-        <p>Gerente de Recursos Humanos</p>
-        </li>
-        <li>
-                Microsoft Corporation
-        <p>2018-2023</p>
-        <p>Gerente de Marketing</p>
-            </li>
-        </ul>
+            <div class="Info">
+                <h3 class="personal">Contacto</h3>
+                <ul>
+                    <li>
+                        <span class="Simbolo"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="texto">(851) 344-5048</span>
+                    </li>
+                    <li>
+                        <span class="Simbolo"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="texto">jenny.fox@hotmail.com</span>
+                    </li>
+                    <li>
+                        <span class="Simbolo"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="texto">3246 Mockingbird Ln</span>
+                    </li>
+                </ul>
+            </div>
 
-        <h2>Educación</h2>
-            <li>Escuela de Economía y Negocios Caseros Primaria</li>
-            <p>1985-1992</p>
-            <p>Título de Educación Primario</p>
-            <li>Escuela de Economía y Negocios Caseros Secundaria</li>
-            <p>1991-1998</p>
-            <p>Técnica Superior en Recursos Humanos</p>
-            <li>Universidad Tecnológica Nacional Facultad Regional de Tucumán</li>
-            <p>1999-2006</p>
-            <p>Ingeniera en Sistemas de Información</p>
-        <ul>
-    </div>
+            <div class="Info-estudios">
+                <h3 class="personal">Estudios</h3>
+                <ul>
+                    <li>
+                        <h5>1985-1992</h5>
+                        <h4>Título de Educación Primario</h4>
+                        <h4>Escuela de Economía y Negocios Primaria</h4>
+                        <h5>1993-1998</h5>
+                        <h4>Técnica Superior en Recursos Humanos</h4>
+                        <h4>Escuela de Economía y Negocios secundaria</h4>
+                        <h5>1999-2006</h5>
+                        <h4>Ingeniera en Sistemas de Informacións</h4>
+                        <h4>Universidad Tecnológica Nacional</h4>
+                    </li>
+                </ul>
+            </div>
 
-    <footer>
-            <p id="link">Para mas Información</p>
-            <button type="button">Facebook</button>
-            <button type="button">Instagram</button>
-            <button type="button">Twitter</button>
-    </footer>
+            <div class="Info-idiomas">
+                <h3 class="personal">Idiomas</h3>
+                <ul>
+                    <li>
+                        <span class="idiom">Español</span>
+                        <span class="nivel">
+                            <div style="width: 100%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="idiom">Inglés</span>
+                        <span class="nivel">
+                            <div style="width: 75%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="idiom">Portugues</span>
+                        <span class="nivel">
+                            <div style="width: 50%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="idiom">Italiano</span>
+                        <span class="nivel">
+                            <div style="width: 25%;"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class = "derecha">
+            <div class="acerca">
+                <h2 class="info2">Perfil</h2>
+                <p>Ingeniera en Sistemas de Información con 15 años de 
+                    experiencia en supervisión de procesos de Administración de datos, 
+                    con una maestría en seguridad en base de datos.<br><br>Soy especialista en el diseño de 
+                    planes de prevención de riesgos y optimización de recursos. Uno de los logros más
+                    destacados en mi trayectoria es que ayudé a la compañía Microsoft a reducir la eficiencia de
+                    los sistemas operativos en un 15%. Deseo ayudarles a aumentar la eficiencia en su empresa.
+                </p>
+            </div>
+            <div class="acerca">
+                <h2 class="info2">Experiencia</h2>
+                <div class="exp">
+                    <div class="empresas">
+                        <h5>2007-2018</h5>
+                        <h5>IBM Corporation</h5>
+                    </div>
+                    <div class="cont">
+                        <h4>Gerente de Recursos Humanos</h4>
+                    </div>
+                    <div class="empresas">
+                        <h5>2018-2023</h5>
+                        <h5>Microsoft Corporation</h5>
+                    </div>
+                    <div class="cont">
+                        <h4>Gerente de Marketing</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acerca habilidades">
+                <h2 class="Info2">Habilidades</h2>
+                <div class="exp">
+                    <h4>Microsoft Office</h4>
+                    <div class="nivel">
+                       <div style="width: 95%;"></div> 
+                    </div>
+                </div>
+                <div class="exp">
+                    <h4>Desarrollo Web en HTML y CSS</h4>
+                    <div class="nivel">
+                        <div style="width: 75%;"></div> 
+                    </div>
+                </div>
+                <div class="exp">
+                    <h4>Programación Orientada a Objetos en JavaScript</h4>
+                    <div class="nivel">
+                        <div style="width: 60%;"></div> 
+                    </div>
+                </div>
+                <div class="exp">
+                    <h4>Desarrolo de estructuras de datos en c++</h4>
+                    <div class="nivel">
+                        <div style="width: 80%;"></div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="acerca redes">
+                <h2 class="Info2">Redes Sociales</h2>
+                <h4>Para mas Información</h4><br>
+                <button type="button" id="link1">Facebook</button><br><br>
+                <button type="button" id="link2">Instagram</button><br><br>
+                <button type="button" id="link3">Twitter</button><br>
+                <p id="face">.</p>
+                <p id="insta">.</p>
+                <p id="twt">.</p>
+            </div>
+        </div>
+    </div>
     <script src="js/cv.js"></script>
 </body>
 </html>
